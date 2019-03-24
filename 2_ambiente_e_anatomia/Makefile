@@ -16,5 +16,5 @@ req:
 	@echo -e "$(OK_COLOR)Requirements OK$(NO_COLOR)"
 project:
 	@echo -e "$(INFO_COLOR)Creating project$(NO_COLOR)"
-	@django-admin.py startproject my_site
-	@echo -e "$(OK_COLOR)Project OK$(NO_COLOR)"\
+	@django-admin.py startproject $(name)
+	@echo -e "$(OK_COLOR)Project $(name) OK$(NO_COLOR)"\
