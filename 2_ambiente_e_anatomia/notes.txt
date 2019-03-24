@@ -1,0 +1,5 @@
+# Comando para instalar o virtualenv em distros que usam o apt
+
+sudo apt install python-virtualenv
+
+# Comando para ativar virtualenv com versão específica do python
