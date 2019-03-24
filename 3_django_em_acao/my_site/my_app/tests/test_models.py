@@ -1,5 +1,5 @@
-from django.test import TestCase
-from .models import Pessoa
+#from django.test import TestCase
+#from .models import Pessoa
 
 
 #class PessoaModelTest(TestCase):
