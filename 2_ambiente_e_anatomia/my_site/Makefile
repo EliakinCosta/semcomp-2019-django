@@ -7,6 +7,10 @@ INFO_COLOR=\x1b[1;36m
 ERROR_COLOR=\x1b[31;01m
 WARN_COLOR=\x1b[33;01m
 
+install_dependencies:
+	@echo -e "$(INFO_COLOR)Installing Project Dependencies$(NO_COLOR)"
+	@pip install -r ../requirements.txt
+	@echo -e "$(OK_COLOR)All dependencies installed[OK]$(NO_COLOR)"
 setup:
 	@$(MAKE) install_dependencies
 	@python3 manage.py migrate
